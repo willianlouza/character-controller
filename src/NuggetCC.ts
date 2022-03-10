@@ -52,7 +52,7 @@ export class Scene {
     }, rate);
   }
   stopLoop(): void {
-    this.loop = null;
+    clearInterval(this.loop);
   }
   render(): void {
     this.objects.forEach((object) => {
