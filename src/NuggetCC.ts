@@ -18,7 +18,7 @@ export class Scene {
     sceneOptions?: sceneOptions,
     objects?: CCObject[]
   ) {
-    this.objects = [];
+    this.objects = objects || [];
     this.domElement = domElement;
 
     this.sceneOptions = sceneOptions || {
