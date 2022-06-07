@@ -1,4 +1,3 @@
-# character-controller
-Controle de personagem simples
+# Controle de personagem simples
 
 Ex: https://willianlouza.github.io/character-controller/
